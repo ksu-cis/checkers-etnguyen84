@@ -12,6 +12,18 @@ body {
     padding-right: 15px;
 }
 
+circle:hover {
+    stroke:gold;
+    stroke-dasharray: 10 10;
+}
+
+circle.selected {
+    stroke: green;
+}
+
+rect:hover {
+    fill: gold;
+}
 /* Carousel */
 .carousel-caption p {
     font-size: 20px;
